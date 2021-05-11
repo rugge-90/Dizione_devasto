@@ -374,7 +374,7 @@ class controller:
         self.add_stat_to_file(stat)
         stats.append(stat)
 
-        print ("added stat")
+        #print ("added stat")
 
 
 
