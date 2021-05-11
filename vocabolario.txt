@@ -1,0 +1,665 @@
+###file vocabolario contiene termini per il ripasso###
+#formato linea: soluzione;regola;termine;gruppo (; separatore)
+#esempio soluzione: è,é,e(doppia prununcia)ò,ó,o(doppia pronuncia),ss (s sorda),s(s sonora),sss(doppia prounncia), zz (z sorda), z (z sonora),sss(doppia pronuncia)
+#esempio regola: dittongo ie
+#esempio termine: miele ie
+#esempio gruppo: e,o,s,z
+#Esempi righe (caricate)::
+è;dittongo ie;miele;e
+è;dittongo ie;siepe;e
+è;dittongo ie;chiese;e
+è;dittongo ie;tieni;e
+é;eccezione dittiongo ie: vocabolo derivazione etnica;pugliese;e
+é;eccezione dittiongo ie: vocabolo derivazione etnica;marsigliese;e
+é;eccezione dittiongo ie: vocabolo derivazione etnica;ateniese;e
+é;eccezione dittongo ie: vezzeggiativo in iétto/a;maglietta;e
+é;eccezione dittongo ie: vezzeggiativo in iétto/a;foglietto;e
+é;eccezione dittongo ie: vezzeggiativo in iétto/a;vecchietto;e
+é;eccezione dittongo ie: suffisso sostantivo in iézza;ampiezza;e
+é;eccezione dittongo ie: suffisso sostantivo in iézza;sottigliezza;e
+é;eccezione dittongo ie: suffisso aggettivo in iésco;scimmiesco;e
+é;eccezione dittongo ie: suffisso aggettivo in iésco;poliziesco;e
+é;eccezione specifica dittongo ie;chierico;e
+é;eccezione specifica dittongo ie;biglietto;e
+é;eccezione specifica dittongo ie;rientra;e
+é;eccezione specifica dittongo ie;riempiono;e
+é;eccezione specifica dittongo ie;glielo;e
+é;eccezione specifica dittongo ie;schietto;e
+é;eccezione specifica dittongo ie;bietto;e
+è;rèi,rèbbe,rèbbero del condizionale;amerei;e
+è;rèi,rèbbe,rèbbero del condizionale;vedrei;e
+è;rèi,rèbbe,rèbbero del condizionale;direbbe;e
+è;rèi,rèbbe,rèbbero del condizionale;direbbero;e
+è;èllo/èlla dei sostantivi e dei diminutivi;agnello;e
+è;èllo/èlla dei sostantivi e dei diminutivi;bidello;e
+è;èllo/èlla dei sostantivi e dei diminutivi;alberello;e
+é;eccezione specifica èllo/èlla;capello;e
+é; eccezione specifica èllo/èlla;stella;e
+é;eccezione èllo/èlla: preposizioni articolate e aggettivi dimostrativi;delle;e
+é;eccezione èllo/èlla: preposizioni articolate e aggettivi dimostrativi;nelle;e
+é;eccezione èllo/èlla: preposizioni articolate e aggettivi dimostrativi;quello;e
+é;eccezione èllo/èlla: preposizioni articolate e aggettivi dimostrativi;quelle;e
+è;suffisso èdine dei sostantivi;acredine;e
+è;suffisso èdine dei sostantivi;raucedine;e
+è;suffisso èma dei sostantivi;fonema;e
+è;suffisso èma dei sostantivi;crema;e
+è;suffisso èma dei sostantivi;diadema;e
+è;suffisso èma dei sostantivi;tema (componimento);e
+é;eccezione specifica suffisso èma dei sostantivi;tema (paura + verbo);e
+è;desinenze e terminazioni in èndo/ènda/ènde;correndo;e
+è;desinenze e terminazioni in èndo/ènda/ènde;bevendo;e
+è;desinenze e terminazioni in èndo/ènda/ènde;sentendo;e
+è;desinenze e terminazioni in èndo/ènda/ènde;orrendo;e
+è;desinenze e terminazioni in èndo/ènda/ènde;benda;e
+è;desinenze e terminazioni in èndo/ènda/ènde;tremendo;e
+è;desinenze e terminazioni in èndo/ènda/ènde;merenda;e
+é;eccezione èndo/ènda/ènde, vendere e scendere e derivati;vendo;e
+é;eccezione èndo/ènda/ènde, vendere e scendere e derivati;scendo;e
+é;eccezione èndo/ènda/ènde, vendere e scendere e derivati;rivendo;e
+é;eccezione èndo/ènda/ènde, vendere e scendere e derivati;discendo;e
+è;ènne, ènnio sostantivi età o periodo;perenne;e
+è;ènne, ènnio sostantivi età o periodo;ventenne;e
+è;ènne, ènnio sostantivi età o periodo;biennio;e
+è;ènne, ènnio sostantivi età o periodo;millennio;e
+è;desinenza èndere dell'infinito;appendere;e
+è;desinenza èndere dell'infinito;pretendere;e
+è;desinenza èndere dell'infinito;dipendere;e
+è;desinenza èndere dell'infinito;tendere;e
+é;eccezione èndere infinito per i verbi vendere, scendere e derivati;vendere;e
+é;eccezione èndere infinito per i verbi vendere, scendere e derivati;rivendere;e
+é;eccezione èndere infinito per i verbi vendere, scendere e derivati;discendere;e
+é;eccezione èndere infinito per i verbi vendere, scendere e derivati;scendere;e
+è;nelle terminazione ènso,ènsa,ènse,ènsi;forense;e
+è;nelle terminazione ènso,ènsa,ènse,ènsi;intenso;e
+è;nelle terminazione ènso,ènsa,ènse,ènsi;senso;e
+è;nelle terminazione ènso,ènsa,ènse,ènsi;penso;e
+è;nelle terminazione ènso,ènsa,ènse,ènsi;dispensa;e
+è;nelle terminazione ènto,ènta,ènte,ènti degli aggettivi;rovente;e
+è;nelle terminazione ènto,ènta,ènte,ènti degli aggettivi;urgente;e
+è;nelle terminazione ènto,ènta,ènte,ènti degli aggettivi;cruenta;e
+è;nelle terminazione ènto,ènta,ènte,ènti degli aggettivi;lento;e
+è;nelle terminazione ènto,ènta,ènte,ènti degli aggettivi;gemente;e
+è;nelle terminazione ènto,ènta,ènte,ènti degli aggettivi;opprimente;e
+è;nelle terminazione ènto,ènta,ènte,ènti degli aggettivi;demente;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;parlamento;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;firmamento;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;mento;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;menta;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;momento;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;tormenta;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;semente;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;altrimenti;e
+é;eccezione per ènto/a/e/i, preceduto da m, ménto/a/e/i;abbigliamento;e
+é;eccezione per ènto/a/e/i, avverbio in "ménte";abilmente;e
+é;eccezione per ènto/a/e/i, avverbio in "ménte";cordialmente;e
+é;eccezione per ènto/a/e/i, avverbio in "ménte";semplicemente;e
+é;eccezione per ènto/a/e/i, venti (numero) trenta;venti (numero);e
+é;eccezione per ènto/a/e/i, venti (numero) trenta;trenta (numero);e
+è;vento / venti come sostantivo;venti (plurale di vento);e
+è;terminazioni in ènza;astinenza;e
+è;terminazioni in ènza;capienza;e
+è;terminazioni in ènza;innocenza;e
+è;terminazioni in ènza;innocenza;e
+è;terminazioni in èrio/a;criterio;e
+è;terminazioni in èrio/a;serio;e
+è;terminazioni in èrio/a;adulterio;e
+è;terminazioni in èrio/a;cattiveria;e
+è;terminazioni in èrio/a;miseria;e
+è;suffissi e terminazioni in èrrimo/a;celeberrimo;e
+è;suffissi e terminazioni in èrrimo/a;integerrimo;e
+è;suffissi e terminazioni in èrrimo/a;miserrimo;e
+è;suffissi ordinali in èsimo;undicesimo;e
+è;suffissi ordinali in èsimo;ventesimo;e
+è;suffissi ordinali in èsimo;centesimo;e
+è;terminazioni in èstra/e/o;balestra;e
+è;terminazioni in èstra/e/o;palestra;e
+è;terminazioni in èstra/e/o;sequestro;e
+è;terminazioni in èstra/e/o;terrestre;e
+è;desinenze ètti,ètte, èttero passato remoto;stetti;e
+è;desinenze ètti,ètte, èttero passato remoto;dette (pass. rem. di dare);e
+é;eccezione specifica desinenze ètti,ètte, èttero passato remoto;dette(pass. rem. di dire);e
+è;desinenze ètti,ètte, èttero passato remoto;stettero;e
+è;terminazioni in èzia/o/e;inezia;e
+è;terminazioni in èzia/o/e;screzio;e
+è;terminazioni in èzia/o/e;trapezio;e
+è;sostantivi tronchi di origine straniera;bigne (acc);e
+è;sostantivi tronchi di origine straniera;caffe (acc);e
+è;sostantivi tronchi di origine straniera;gile(acc);e
+è;sostantivi tronchi di origine straniera;te (acc);e
+è;vocaboli origine straniera terminano consonante;vademecum;e
+è;vocaboli origine straniera terminano consonante;semmel;e
+è;vocaboli origine straniera terminano consonante;negus;e
+è;consonante scempia seguita da due vocali;assedio;e
+è;consonante scempia seguita da due vocali;criterio;e
+è;consonante scempia seguita da due vocali;serio;e
+è;consonante scempia seguita da due vocali;tenue;e
+é;eccezione conosonante scempia + 2 vocali, guo/i/a/e;seguo;e
+é;eccezione conosonante scempia + 2 vocali, guo/i/a/e;dilegua;e
+é;eccezione conosonante scempia + 2 vocali, guo/i/a/e;tregua;e
+é;eccezione specifica conosonante scempia + 2 vocali;sfregio;e
+é;eccezione specifica conosonante scempia + 2 vocali;fregio;e
+è;Nelle terminazioni in èda ède èdi èdo;cedo;e
+è;Nelle terminazioni in èda ède èdi èdo;corredo;e
+è;Nelle terminazioni in èda ède èdi èdo;preda;e
+è;Nelle terminazioni in èda ède èdi èdo;scheda;e
+é;eccezione terminazioni in èda,ède,èdi,èdo: credere+vedere + derivati;credo;e
+é;eccezione terminazioni in èda,ède,èdi,èdo: credere+vedere + derivati;vedo;e
+é;eccezione terminazioni in èda,ède,èdi,èdo: credere+vedere + derivati;ricredo;e
+é;eccezione terminazioni in èda,ède,èdi,èdo: credere+vedere + derivati;indravedo;e
+é;eccezione specifica terminazioni in èda,ède,èdi,èdo;fede;e
+è;Nelle terminazioni "èca" "èche" "èchi" "èco";teca;e
+è;Nelle terminazioni "èca" "èche" "èchi" "èco";geco;e
+è;Nelle terminazioni "èca" "èche" "èchi" "èco";greca;e
+è;Nelle terminazioni "èca" "èche" "èchi" "èco";biblioteca;e
+è;Nelle terminazioni in "èrbia" ed "èrbio";superbia;e
+è;Nelle terminazioni in "èrbia" ed "èrbio";avverbio;e
+è;Nelle terminazioni in "èrbia" ed "èrbio";diverbio;e
+è;Nelle terminazioni in "èrbo", "èrba", "èrbe" ed "èrbi";serbo;e
+è;Nelle terminazioni in "èrbo", "èrba", "èrbe" ed "èrbi";acerbo;e
+è;Nelle terminazioni in "èrbo", "èrba", "èrbe" ed "èrbi";riserbo;e
+è;Nelle terminazioni in "èrbo", "èrba", "èrbe" ed "èrbi";erba;e
+è;Nelle terminazioni in "èrno", "èrna", "èrne" ed "èrni";caverna;e
+è;Nelle terminazioni in "èrno", "èrna", "èrne" ed "èrni";moderno;e
+è;Nelle terminazioni in "èrno", "èrna", "èrne" ed "èrni";governo;e
+é;eccezione specifica terminazioni in "èrno", "èrna", "èrne" ed "èrni";scherno;e
+è;Nelle terminazioni in "erro", "èrra", "èrre" ed "èrri";terra;e
+è;Nelle terminazioni in "erro", "èrra", "èrre" ed "èrri";guerra;e
+è;Nelle terminazioni in "èrso", "èrsa", "èrse", ed "èrsi";verso;e
+è;Nelle terminazioni in "èrso", "èrsa", "èrse", ed "èrsi";avverso;e
+è;Nelle terminazioni in "èrso", "èrsa", "èrse", ed "èrsi";emersa;e
+è;Nelle terminazioni in "èrto", "èrte", "èrti" ed "èrta";scoperta;e
+è;Nelle terminazioni in "èrto", "èrte", "èrti" ed "èrta";avverto;e
+è;Nelle terminazioni in "èrto", "èrte", "èrti" ed "èrta";aperto;e
+é;eccezione terminazioni in "èrto", "èrte", "èrti" ed "èrta": érto/a + allérta;erto;e
+é;eccezione terminazioni in "èrto", "èrte", "èrti" ed "èrta": érto/a + allérta;erta;e
+é;eccezione terminazioni in "èrto", "èrte", "èrti" ed "èrta": érto/a + allérta;allerta;e
+è;Nelle terminazioni in "èrvo", "èrva", "èrva", ed "èrvi";servo;e
+è;Nelle terminazioni in "èrvo", "èrva", "èrva", ed "èrvi";conserva;e
+è;Nelle terminazioni in "èrvo", "èrva", "èrva", ed "èrvi";caterva;e
+è;Nel suffisso "ène" di termini chimici;benzene;e
+è;Nel suffisso "ène" di termini chimici;etilene;e
+è;Nel suffisso "ène" di termini chimici;terpene;e
+è;Nel suffisso "lènto" di aggettivi;sonnolento;e
+è;Nel suffisso "lènto" di aggettivi;succulento;e
+è;Nelle terminazioni in "èvolo";benevolo;e
+è;Nelle terminazioni in "èvolo";malevolo;e
+é;Nelle terminazioni in "éccio";godereccio;e
+é;Nelle terminazioni in "éccio";intreccio;e
+é;Nelle terminazioni in "éccio";peschereccio;e
+é;Nelle terminazioni in "éccio";freccia;e
+é;Nelle terminazioni in "éccio";treccia;e
+é;Nelle terminazioni in "éccio";libeccio;e
+è;eccezione specifica terminazioni in "éccio";feccia;e
+é;Nel suffisso in "éfice" dei sostantivi;orefice;e
+é;Nel suffisso in "éfice" dei sostantivi;carnefice;e
+é;Nel suffisso in "éfice" dei sostantivi;artefice;e
+é;Nei suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi";armeggio;e
+é;Nei suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi";legge (atto normativo);e
+é;Nei suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi";arpeggio;e
+é;Nei suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi";scheggia;e
+è;eccezione specifica suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi";reggia;e
+è;eccezione specifica suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi";peggio;e
+è;eccezione specifica suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi";seggio;e
+è;eccezione suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi": forme verbo leggere;leggo;e
+è;eccezione suffissi dei sostantivi e verbi in "éggio", "éggia", "égge", "éggi": forme verbo leggere;egli legge;e
+é;Nelle desinenze "éi" "ésti" "é" "émmo" "éste" "érono" del passato remoto;potei;e
+é;Nelle desinenze "éi" "ésti" "é" "émmo" "éste" "érono" del passato remoto;poté;e
+é;Nelle desinenze "éi" "ésti" "é" "émmo" "éste" "érono" del passato remoto;poteste;e
+é;Nelle desinenze "éi" "ésti" "é" "émmo" "éste" "érono" del passato remoto;poterono;e
+é;Nelle desinenze "rémo" "réte" del futuro (I II plurale);potremo;e
+é;Nelle desinenze "rémo" "réte" del futuro (I II plurale);potrete;e
+é;Nel suffisso in "ménte" degli avverbi;abilmente;e
+é;Nel suffisso in "ménte" degli avverbi;abbondantemente;e
+é;Nel suffisso in "ménte" degli avverbi;tragicamente;e
+é;Nel suffisso in "ménte" degli avverbi;duramente;e
+é;Nel suffiso in "ménto" dei sostantivi;abbonamento;e
+é;Nel suffiso in "ménto" dei sostantivi;trasferimento;e
+é;Nel suffiso in "ménto" dei sostantivi;momento;e
+é;Nella desinenza in "ére" dell’infinito;accadere;e
+é;Nella desinenza in "ére" dell’infinito;dovere;e
+é;Nella desinenza in "ére" dell’infinito;temere;e
+é;Nelle terminazioni in "ésa", "ese", "esi", "eso";ascesa;e
+é;Nelle terminazioni in "ésa", "ese", "esi", "eso";sorpresa;e
+é;Nelle terminazioni in "ésa", "ese", "esi", "eso";offesa;e
+é;Nelle terminazioni in "ésa", "ese", "esi", "eso";peso;e
+é;Nelle terminazioni in "ésa", "ese", "esi", "eso";mese;e
+é;Nelle terminazioni in "ésa", "ese", "esi", "eso";borghese;e
+é;Nelle terminazioni in "ésa", "ese", "esi", "eso";scortese;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": dittongo "ie";chiesi;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": dittongo "ie";chiesa;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": vocabili dottrinali;tesi (componimento);e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": vocabili dottrinali;catechesi;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": vocabili dottrinali;cosmesi;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": vocabili dottrinali;esagesi;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": vocabili dottrinali;mimesi;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": vocabili dottrinali;paresi;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": vocabili dottrinali;anuresi;e
+è;eccezione terminazioni in "ésa", "ese", "esi", "eso": vocabili dottrinali;anamnesi;e
+é;Nelle terminazioni in "ésco" "ésca";pesco;e
+é;Nelle terminazioni in "ésco" "ésca";scolaresca;e
+é;Nelle terminazioni in "ésco" "ésca";cresco;e
+é;Nelle terminazioni in "ésco" "ésca";pazzesco;e
+è;eccezione specifica terminazioni in "ésco" "ésca";pesca (frutto);e
+è;eccezione specifica terminazioni in "ésco" "ésca";esco;e
+é;Nel suffisso in "ésimo" dei sostantivi astratti;battesimo;e
+é;Nel suffisso in "ésimo" dei sostantivi astratti;cattolicesimo;e
+é;Nel suffisso in "ésimo" dei sostantivi astratti;urbanesimo;e
+é;Nel suffisso in "éssa" dei sostantivi femminili;baronessa;e
+é;Nel suffisso in "éssa" dei sostantivi femminili;promessa;e
+é;Nel suffisso in "éssa" dei sostantivi femminili;scommessa;e
+è;eccezione specifica suffisso in "éssa" dei sostantivi femminili;compressa;e
+è;eccezione specifica suffisso in "éssa" dei sostantivi femminili;ossessa;e
+è;eccezione specifica suffisso in "éssa" dei sostantivi femminili;pressa;e
+è;eccezione specifica suffisso in "éssa" dei sostantivi femminili;ressa;e
+é;Nelle desinenze "éssi" "ésse" "éssimo" "éste" "éssero" del congiuntivo (imperfetto);sapessi;e
+é;Nelle desinenze "éssi" "ésse" "éssimo" "éste" "éssero" del congiuntivo (imperfetto);sapesse;e
+é;Nelle desinenze "éssi" "ésse" "éssimo" "éste" "éssero" del congiuntivo (imperfetto);sapessimo;e
+é;Nelle desinenze "éssi" "ésse" "éssimo" "éste" "éssero" del congiuntivo (imperfetto);sapeste;e
+é;Nelle desinenze "éssi" "ésse" "éssimo" "éste" "éssero" del congiuntivo (imperfetto);sapessero;e
+é;Nelle desinenze in "résti" "rémmo" "réste" del condizionale (II singolare, I II plurale);potresti;e
+é;Nelle desinenze in "résti" "rémmo" "réste" del condizionale (II singolare, I II plurale);potremmo;e
+é;Nelle desinenze in "résti" "rémmo" "réste" del condizionale (II singolare, I II plurale);potreste;e
+é;Nella desinenza in "éte" dell'indicativo e imperativo;avete;e
+é;Nella desinenza in "éte" dell'indicativo e imperativo;scrivete;e
+é;Nel suffisso in "étto", "étta" dei diminutivi e collettivi;cavalletto;e
+é;Nel suffisso in "étto", "étta" dei diminutivi e collettivi;quadretto;e
+é;Nel suffisso in "étto", "étta" dei diminutivi e collettivi;forchetta;e
+é;Nel suffisso in "étto", "étta" dei diminutivi e collettivi;casetta;e
+é;Nelle desinenze in "évo" "évi" "éva" "évano" dell'indicativo (imperfetto);volevo;e
+é;Nelle desinenze in "évo" "évi" "éva" "évano" dell'indicativo (imperfetto);volevi;e
+é;Nelle desinenze in "évo" "évi" "éva" "évano" dell'indicativo (imperfetto);voleva;e
+é;Nelle desinenze in "évo" "évi" "éva" "évano" dell'indicativo (imperfetto);volevano;e
+é;Nel suffisso in "évole" degli aggettivi;amichevole;e
+é;Nel suffisso in "évole" degli aggettivi;durevole;e
+é;Nel suffisso in "évole" degli aggettivi;piacevole;e
+é;Nel suffisso in "ézza", "ézzo" dei sostantivi;agiatezza;e
+é;Nel suffisso in "ézza", "ézzo" dei sostantivi;vaghezza;e
+é;Nel suffisso in "ézza", "ézzo" dei sostantivi;stranezza;e
+è;eccezione specifica suffisso in "ézza", "ézzo" dei sostantivi;pezza;e
+è;eccezione specifica suffisso in "ézza", "ézzo" dei sostantivi;mezza;e
+è;eccezione specifica suffisso in "ézza", "ézzo" dei sostantivi;disprezzo;e
+è;eccezione specifica suffisso in "ézza", "ézzo" dei sostantivi;prezzo;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);che;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);re (monarca);e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);te;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);tre;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);ne;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);né;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);sé;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);se;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);cé;e
+é;Nei monosillabi atoni: ché, ré (monarca), té, tré, né, ne, sé, se, cé, é (congiunzione);é;e
+è;eccezione monosillabi atoni;rè (nota musicale);e
+é;Nei vocaboli tronchi in generale ed in quelli tronchi che terminano in "che";perché;e
+é;Nei vocaboli tronchi in generale ed in quelli tronchi che terminano in "che";finché;e
+é;Nei vocaboli tronchi in generale ed in quelli tronchi che terminano in "che";giacché;e
+é;Nei vocaboli tronchi in generale ed in quelli tronchi che terminano in "che";mercé;e
+è;eccezione vocaboli tronchi in generale ed in quelli tronchi che terminano in "che";ahimè;e
+è;eccezione vocaboli tronchi in generale ed in quelli tronchi che terminano in "che";coccodè;e
+é;Nei suffissi dei sostantivi collettivi in "éto", "éta";frutteto;e
+é;Nei suffissi dei sostantivi collettivi in "éto", "éta";pineta;e
+é;Nei suffissi dei sostantivi collettivi in "éto", "éta";roseto;e
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;però;o
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;falò;o
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;arrivò;o
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;dirò;o
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;farò;o
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;andò;o
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;portò;o
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;sgridò;o
+ò;Nei vocaboli tronchi terminanti in "ò" comprese le forme verbali del futuro e del passato remoto;scordò;o
+ò;Nelle terminazioni in "òccio" "òccia";barroccio;o
+ò;Nelle terminazioni in "òccio" "òccia";figlioccio;o
+ò;Nelle terminazioni in "òccio" "òccia";boccia;o
+ò;Nelle terminazioni in "òccio" "òccia";roccia;o
+ò;Nelle terminazioni in "òccio" "òccia";saccoccia;o
+ó;eccezione specifica terminazioni in "òccio" "òccia";moccio;o
+ó;eccezione specifica terminazioni in "òccio" "òccia";goccia;o
+ó;eccezione specifica terminazioni in "òccio" "òccia";doccia;o
+ò;Nel suffisso in "òide" dei sostantivi e degli aggettivi;adenoide;o
+ò;Nel suffisso in "òide" dei sostantivi e degli aggettivi;celluloide;o
+ò;Nel suffisso in "òide" dei sostantivi e degli aggettivi;mattoide;o
+ò;Nei suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;benzolo;o
+ò;Nei suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;dolo;o
+ò;Nei suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;campagnola;o
+ò;Nei suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;fola;o
+ò;Nei suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;braciola;o
+ò;Nei suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;spagnola;o
+ó;Eccezione specifica suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;assolo;o
+ó;Eccezione specifica suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;volo;o
+ó;Eccezione specifica suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;soggolo;o
+ó;Eccezione specifica suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;solo;o
+ó;Eccezione specifica suffissi in "òlo" "òla" dei sostantivi e degli aggettivi;gola;o
+ó;Eccezione suffissi in "òlo" "òla" dei sostantivi e degli aggettivi: verbo colare;colo;o
+ò;Nel suffisso in "òsi" e "òsio" dei sostantivi usati in campo medico e scientifico;artrosi;o
+ò;Nel suffisso in "òsi" e "òsio" dei sostantivi usati in campo medico e scientifico;simbiosi;o
+ò;Nel suffisso in "òsi" e "òsio" dei sostantivi usati in campo medico e scientifico;tubercolosi;o
+ò;Nei suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;agnolotto;o
+ò;Nei suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;cappotto;o
+ò;Nei suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;sempliciotto;o
+ò;Nei suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;botta;o
+ò;Nei suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;flotta;o
+ò;Nei suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;ricotta;o
+ò;Nei suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;dotto (persona colta);o
+ó;Eccezione suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi: verbi deriv. Lat. "duocere";indotto;o
+ó;Eccezione suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi: verbi deriv. Lat. "duocere";condotto;o
+ó;Eccezione suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi: verbi deriv. Lat. "duocere";ridotto;o
+ó;Eccezione suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi: verbi deriv. Lat. "duocere";tradotto;o
+ó;Eccezione specifica suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;ghiotto;o
+ó;Eccezione specifica suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;sotto;o
+ó;Eccezione specifica suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;bancarotta;o
+ó;Eccezione specifica suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;gotta;o
+ó;Eccezione specifica suffissi in "òtto" "òtta" dei sostantivi e degli aggettivi;rotto;o
+ò;Nei suffissi in "òttolo" "òttola" dei sostantivi;ciottolo;o
+ò;Nei suffissi in "òttolo" "òttola" dei sostantivi;pianerottolo;o
+ò;Nei suffissi in "òttolo" "òttola" dei sostantivi;viottolo;o
+ò;Nei suffissi in "òttolo" "òttola" dei sostantivi;collottola;o
+ò;Nei suffissi in "òttolo" "òttola" dei sostantivi;frottola;o
+ò;Nei suffissi in "òttolo" "òttola" dei sostantivi;trottola;o
+ò;Nelle desinenze in "òlsi" "òlse" "òlsero" del passato remoto;tolsi;o
+ò;Nelle desinenze in "òlsi" "òlse" "òlsero" del passato remoto;tolse;o
+ò;Nelle desinenze in "òlsi" "òlse" "òlsero" del passato remoto;tolsero;o
+ò;Nella desinenza in "òsso" del participio passato;commosso;o
+ò;Nella desinenza in "òsso" del participio passato;promosso;o
+ò;Nella desinenza in "òsso" del participio passato;riscosso;o
+ò;Nelle terminazioni in "òzio" dei sostantivi;negozio;o
+ò;Nelle terminazioni in "òzio" dei sostantivi;equinozio;o
+ò;Nelle terminazioni in "òzio" dei sostantivi;ozio;o
+ò;Nelle terminazioni in "òzzo" "òzza" dei sostantivi;bragozzo;o
+ò;Nelle terminazioni in "òzzo" "òzza" dei sostantivi;maritozzo;o
+ò;Nelle terminazioni in "òzzo" "òzza" dei sostantivi;tozzo;o
+ò;Nelle terminazioni in "òzzo" "òzza" dei sostantivi;carrozza;o
+ò;Nelle terminazioni in "òzzo" "òzza" dei sostantivi;strozza;o
+ò;Nelle terminazioni in "òzzo" "òzza" dei sostantivi;tinozza;o
+ó;Eccezione specifica terminazioni in "òzzo" "òzza" dei sostantivi;gozzo;o
+ó;Eccezione specifica terminazioni in "òzzo" "òzza" dei sostantivi;singhiozzo;o
+ó;Eccezione specifica terminazioni in "òzzo" "òzza" dei sostantivi;sozzo;o
+ó;Eccezione specifica terminazioni in "òzzo" "òzza" dei sostantivi;pozzo;o
+ó;Eccezione specifica terminazioni in "òzzo" "òzza" dei sostantivi;rozza;o
+ó;Eccezione specifica terminazioni in "òzzo" "òzza" dei sostantivi;pozza;o
+ò;Nelle terminazioni in "òrio" "òria" dei sostantivi ed egli aggettivi;canzonatorio;o
+ò;Nelle terminazioni in "òrio" "òria" dei sostantivi ed egli aggettivi;territorio;o
+ò;Nelle terminazioni in "òrio" "òria" dei sostantivi ed egli aggettivi;baldoria;o
+ò;Nelle terminazioni in "òrio" "òria" dei sostantivi ed egli aggettivi;memoria;o
+ò;Nelle terminazioni in "òrio" "òria" dei sostantivi ed egli aggettivi;storia;o
+ò;Nel dittongo "uò";cuore;o
+ò;Nel dittongo "uò";muove;o
+ò;Nel dittongo "uò";uomo;o
+ò;Nel dittongo "uò": anche con la o soppressa;foco;o
+ò;Nel dittongo "uò": anche con la o soppressa;core;o
+ó;Eccezione dittongo "uò": suffisso in uóso" "uósa";affettuoso;o
+ó;Eccezione dittongo "uò": suffisso in uóso" "uósa";impetuosa;o
+ó;Eccezione dittongo "uò": suffisso in uóso" "uósa";lussosa;o
+ó;Eccezione specifica dittongo "uò";liquore;o
+ó;Eccezione specifica dittongo "uò";languore;o
+ó;Eccezione specifica dittongo "uò";sciaquone;o
+ó;Eccezione specifica dittongo "uò";scialaquone;o
+ò;Nei monosillabi tonici;do;o
+ò;Nei monosillabi tonici;so;o
+ò;Nei monosillabi tonici;ciò;o
+ò;Nei monosillabi tonici;fò;o
+ò;Nei monosillabi tonici;sto;o
+ò;Nei monosillabi tonici;po';o
+ò;Nei monosillabi tonici;ho;o
+ò;Nei monosillabi tonici;vò;o
+ò;Nelle parole che finiscono in consonante;colon;o
+ò;Nelle parole che finiscono in consonante;stop;o
+ò;Nelle parole che finiscono in consonante;nord;o
+ò;Nelle parole che finiscono in consonante;factotum;o
+ò;Quando è seguita da una consonante scritta scempia (non doppia), seguita a sua volta da due vocali;custodia;o
+ò;Quando è seguita da una consonante scritta scempia (non doppia), seguita a sua volta da due vocali;memoria;o
+ò;Quando è seguita da una consonante scritta scempia (non doppia), seguita a sua volta da due vocali;roseo;o
+ò;Quando è seguita da una consonante scritta scempia (non doppia), seguita a sua volta da due vocali;socio;o
+ò;Quando è seguita da una consonante scritta scempia (non doppia), seguita a sua volta da due vocali;petrolio;o
+ò;Quando è seguita da una consonante scritta scempia (non doppia), seguita a sua volta da due vocali;negozio;o
+ó;Eccezione specifica consonante scritta scempia (non doppia), seguita a sua volta da due vocali;incrocio;o
+ò;Quando è seguita da un suffisso atono o da un altro elemento atono di parola composta;burocrate;o
+ò;Quando è seguita da un suffisso atono o da un altro elemento atono di parola composta;Cristoforo;o
+ò;Quando è seguita da un suffisso atono o da un altro elemento atono di parola composta;melodico;o
+ò;Quando è seguita da un suffisso atono o da un altro elemento atono di parola composta;pedagogico;o
+ò;Quando è seguita da un suffisso atono o da un altro elemento atono di parola composta;pittorico;o
+ò;Nelle terminazioni dei nomi propri in òldo òlfo;Leopoldo;o
+ò;Nelle terminazioni dei nomi propri in òldo òlfo;Adolfo;o
+ò;Nelle terminazioni dei nomi propri in òldo òlfo;Castel Gandolfo;o
+ò;Nei vocaboli di origine straniera;lord;o
+ò;Nei vocaboli di origine straniera;gong;o
+ò;Nei vocaboli di origine straniera;box;o
+ò;Nelle terminazioni in "òdo", "òda", "òde", "òdi";brodo;o
+ò;Nelle terminazioni in "òdo", "òda", "òde", "òdi";chiodo;o
+ò;Nelle terminazioni in "òdo", "òda", "òde", "òdi";brodo;o
+ó;Eccezione terminazioni in "òdo", "òda", "òde", "òdi":verbo rodere;egli rode;o
+ó;Eccezione specifica terminazioni in "òdo", "òda", "òde", "òdi";coda;o
+ò;Nelle terminazioni in "oggi", "òggia", "òggio", "òge", "ògia", "ògio";Foggia;o
+ò;Nelle terminazioni in "oggi", "òggia", "òggio", "òge", "ògia", "ògio";Pioggia;o
+ò;Nelle terminazioni in "oggi", "òggia", "òggio", "òge", "ògia", "ògio";Appoggio;o
+ò;Nelle terminazioni in "òlgia", "òrgia";orgia;o
+ò;Nelle terminazioni in "òlgia", "òrgia";forgia;o
+ò;Nelle terminazioni in "òlgia", "òrgia";bolgia;o
+ò;Nelle terminazioni in "òlgia", "òrgia";volgere;o
+ò;Nei suffissi di derivazione greca "òlogo", "ògico", "ògrafo", "òmico";prologo;o
+ò;Nei suffissi di derivazione greca "òlogo", "ògico", "ògrafo", "òmico";fotografo;o
+ò;Nei suffissi di derivazione greca "òlogo", "ògico", "ògrafo", "òmico";psicologico;o
+ò;Nei suffissi di derivazione greca "òlogo", "ògico", "ògrafo", "òmico";comico;o
+ò;Nel suffisso "òma" di termini di origine greca;glaucoma;o
+ò;Nel suffisso "òma" di termini di origine greca;automa;o
+ó;Nei suffissi in "óce" dei sostantivi e degli aggettivi;croce;o
+ó;Nei suffissi in "óce" dei sostantivi e degli aggettivi;feroce;o
+ó;Nei suffissi in "óce" dei sostantivi e degli aggettivi;voce;o
+ó;Nei suffissi in "óce" dei sostantivi e degli aggettivi - OK anche precòce;precoce;o
+ò;Eccezione suffissi in "óce" dei sostantivi e degli aggettivi: dittongo "uo";nuoce;o
+ò;Eccezione suffissi in "óce" dei sostantivi e degli aggettivi: dittongo "uo";cuoce;o
+ó;Nelle terminazioni in "ógno" "ógna";agogno;o
+ó;Nelle terminazioni in "ógno" "ógna";bisogno;o
+ó;Nelle terminazioni in "ógno" "ógna";sogno;o
+ó;Nelle terminazioni in "ógno" "ógna";catalogna;o
+ó;Nelle terminazioni in "ógno" "ógna";cicogna;o
+ó;Nelle terminazioni in "ógno" "ógna";rampogna;o
+ó;Nei suffissi in "ógnolo" degli aggettivi;azzurrognolo;o
+ó;Nei suffissi in "ógnolo" degli aggettivi;giallognolo;o
+ó;Nei suffissi in "ógnolo" degli aggettivi;verdognolo;o
+ó;Nelle terminazioni in "óio" , "oia";ballatoia;o
+ó;Nelle terminazioni in "óio" , "oia";ingoio;o
+ó;Nelle terminazioni in "óio" , "oia";serbatoio;o
+ò;Eccezione specifica terminazioni in "óio" , "oia";soia;o
+ò;Eccezione specifica terminazioni in "óio" , "oia";salamoia;o
+ó;Nelle terminazioni in "ónda" "óndo";onda;o
+ó;Nelle terminazioni in "ónda" "óndo";bionda;o
+ó;Nelle terminazioni in "ónda" "óndo";gronda;o
+ó;Nelle terminazioni in "ónda" "óndo";mondo;o
+ó;Nelle terminazioni in "ónda" "óndo";fecondo;o
+ó;Nelle terminazioni in "ónda" "óndo";affondo;o
+ò;Eccezione specifica terminazioni in "ónda" "óndo" - accettato anche anacónda;anaconda;o
+ó;Nelle terminazioni in "óna" "óne" dei sostantivi;corona;o
+ó;Nelle terminazioni in "óna" "óne" dei sostantivi;maratona;o
+ó;Nelle terminazioni in "óna" "óne" dei sostantivi;poltrona;o
+ó;Nelle terminazioni in "óna" "óne" dei sostantivi;bottone;o
+ó;Nelle terminazioni in "óna" "óne" dei sostantivi;dotazione;o
+ó;Nelle terminazioni in "óna" "óne" dei sostantivi;elettrone;o
+ò;Eccezione specifica terminazioni in "óna" "óne" dei sostantivi;zona;o
+ò;Eccezione specifica terminazioni in "óna" "óne" dei sostantivi;matrona;o
+ò;Eccezione specifica terminazioni in "óna" "óne" dei sostantivi;testimone;o
+ò;Eccezione specifica terminazioni in "óna" "óne" dei sostantivi;arizona;o
+ò;Eccezione specifica terminazioni in "óna" "óne" dei sostantivi;demone;o
+ò;Eccezione terminazioni in "óna" "óne": dittongo uo;buone;o
+ó;Nella desinenza in "óno" dell'indicativo;addiziono;o
+ó;Nella desinenza in "óno" dell'indicativo;ragiono;o
+ò;Eccezione specifica desinenza in "óno" dell'indicativo;intono;o
+ò;Eccezione specifica desinenza in "óno" dell'indicativo;introno;o
+ò;Eccezione specifica desinenza in "óno" dell'indicativo;stono;o
+ò;Eccezione specifica desinenza in "óno" dell'indicativo;tuono;o
+ó;Nelle terminazioni in "ónte", "ónto", "ónta";bisonte;o
+ó;Nelle terminazioni in "ónte", "ónto", "ónta";conte;o
+ó;Nelle terminazioni in "ónte", "ónto", "ónta";orizzonte;o
+ó;Nei suffissi in "ónzolo" dei sostantivi;ballonzolo;o
+ó;Nei suffissi in "ónzolo" dei sostantivi;fronzolo;o
+ó;Nei suffissi in "ónzolo" dei sostantivi;mediconzolo;o
+ó;Nelle terminazioni in "óre", "óra";ascensore;o
+ó;Nelle terminazioni in "óre", "óra";fiore;o
+ó;Nelle terminazioni in "óre", "óra";liquore;o
+ò;Eccezione terminazioni in "óre", "óra": dittongo uo;cuore;o
+ò;Eccezione terminazioni in "óre", "óra": dittongo uo;crepacuore;o
+ó;Nelle desinenze in "ósi" "óse" "ósero" del passato remoto;nascosi;o
+ó;Nelle desinenze in "ósi" "óse" "ósero" del passato remoto;rispose;o
+ó;Nelle desinenze in "ósi" "óse" "ósero" del passato remoto;esplosero;o
+ó;Nei suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;adiposo;o
+ó;Nei suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;odoroso;o
+ó;Nei suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;vistoso;o
+ó;Nei suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;cellulosa;o
+ó;Nei suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;mimosa;o
+ó;Nei suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;tuberosa;o
+ò;Eccezione specifica suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;coso;o
+ò;Eccezione specifica suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;riposo;o
+ò;Eccezione specifica suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;sposo;o
+ò;Eccezione specifica suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;chiosa;o
+ò;Eccezione specifica suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;Cimarosa;o
+ò;Eccezione specifica suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;iosa;o
+ò;Eccezione specifica suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;prosa;o
+ò;Eccezione specifica suffissi in "óso" "ósa" dei sostantivi e degli aggettivi;rosa;o
+ó;Nei pronomi personali;noi;o
+ó;Nei pronomi personali;voi;o
+ó;Nei pronomi personali;loro;o
+ó;Nei pronomi personali;costoro;o
+ó;Nelle terminazioni in "órno", "órna";giorno;o
+ó;Nelle terminazioni in "órno", "órna";contorno;o
+ó;Nelle terminazioni in "órno", "órna";ritorno;o
+ò;Eccezione specifica terminazioni in "órno", "órna";porno;o
+ò;Eccezione specifica terminazioni in "órno", "órna";corno;o
+ss;Quando è iniziale di parola e seguita da vocale;ségno;s
+ss;Quando è iniziale di parola e seguita da vocale;sógno;s
+ss;Quando è iniziale di parola e seguita da vocale;sigaro;s
+ss;Quando è iniziale di parola e seguita da vocale;sapóne;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;affittasi;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;riserbo;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;girasole;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;coseno;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;desiderio;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;preside;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;resistere;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;preservare;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;residente;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;trasecolare;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;qualsiasi;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;risolvere;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;risoluto;s
+ss;quando è iniziale di un secondo componente di un vocabolo composto;disegno;s
+s;eccezione specifica regola: quando è iniziale di un secondo componente di un vocabolo composto;bisestile;s
+s;eccezione specifica regola: quando è iniziale di un secondo componente di un vocabolo composto;filòsofo;s
+ss;quando è seguita dalle consonanti sorde: c,f,p,q,t;ascoltare;s
+ss;quando è seguita dalle consonanti sorde: c,f,p,q,t;asfalto;s
+ss;quando è seguita dalle consonanti sorde: c,f,p,q,t;spazzola;s
+ss;quando è preceduta da un'altra consonante;tónso;s
+ss;quando è preceduta da un'altra consonante;avulso;s
+ss;quando è preceduta da un'altra consonante;arso;s
+ss;quando è doppia;tósse;s
+ss;quando è doppia;spésso;s
+ss;quando è doppia;lusso;s
+ss;nelle terminazioni in ese dei nomi etnici;cinese;s
+ss;nelle terminazioni in ese dei nomi etnici;pugliese;s
+ss;nelle terminazioni in ese dei nomi etnici;piemontese;s
+s;eccezione regola: nelle terminazioni in ese dei nomi etnici;francese;s
+s;eccezione regola: nelle terminazioni in ese dei nomi etnici;marchese;s
+s;eccezione regola: nelle terminazioni in ese dei nomi etnici;cortese;s
+s;eccezione regola: nelle terminazioni in ese dei nomi etnici;borghese;s
+s;eccezione regola: nelle terminazioni in ese dei nomi etnici;malese;s
+s;eccezione regola: nelle terminazioni in ese dei nomi etnici;inglese;s
+s;davanti alle consonanti sonore: b,d,g,l,m,n,r,v;sbadato;s
+s;davanti alle consonanti sonore: b,d,g,l,m,n,r,v;sdentato;s
+s;davanti alle consonanti sonore: b,d,g,l,m,n,r,v;sgarbo;s
+s;davanti alle consonanti sonore: b,d,g,l,m,n,r,v;slancio;s
+s;davanti alle consonanti sonore: b,d,g,l,m,n,r,v;risma;s
+s;davanti alle consonanti sonore: b,d,g,l,m,n,r,v;sragionare;s
+s;davanti alle consonanti sonore: b,d,g,l,m,n,r,v;risveglio;s
+s;quando è finale di prefisso (es. bis-unto);cisalpino;s
+s;quando è finale di prefisso (es. bis-unto);disorganizzato;s
+s;quando è finale di prefisso (es. bis-unto);disadattato;s
+s;quando è finale di prefisso (es. bis-unto);trasandato;s
+s;quando è finale di prefisso (es. bis-unto);esautorare;s
+ss;eccezione regola: quando è finale di prefisso - prefisso trans-;transatlantico;s
+ss;eccezione regola: quando è finale di prefisso - prefisso trans-;transalpino;s
+s;quando si trova tra due vocali;chiesa;s
+s;quando si trova tra due vocali;rosa;s
+s;quando si trova tra due vocali;coeso;s
+ss;eccezione specifica quando si trova tra due vocali;preside;s
+ss;eccezione specifica quando si trova tra due vocali;desiderio;s
+ss;eccezione specifica quando si trova tra due vocali;disegno;s
+zz;quando è seguita dalla vocale "i" seguita da un’altra vocale;grazia;z
+zz;quando è seguita dalla vocale "i" seguita da un’altra vocale;ozio;z
+zz;quando è seguita dalla vocale "i" seguita da un’altra vocale;zio;z
+z;eccezione specifica regola quando è seguita dalla vocale "i" seguita da un’altra vocale;azieda;z
+z;eccezione quando è seguita dalla vocale "i" seguita da un’altra vocale: parole chec derivano da una z sonora (es: romanziere, da romanzo);romanziere;z
+zz;finali in "anza","enza";finanza;z
+zz;finali in "anza","enza";presenza;z
+z;eccezione finale "anza","enza": verbo pranzare;pranza;z
+zz;nelle desinenze dell'infinito "azzare";ammazzare;z
+zz;nelle desinenze dell'infinito "azzare";starnazzare;z
+zz;finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;finézza;z
+zz;finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;carròzza;z
+zz;finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;maritòzzo;z
+zz;finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;pózzi;z
+zz;finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;nòzze;z
+zz;finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;puzza;z
+zz;finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;peluzzo;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;brézza;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;parabrézza;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;lazzaro;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;mèzzo;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;razzo;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;rózzo;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;dozzina;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;azzurro;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;azzardo;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;aguzzino;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;amazzon;z
+z;eccezione specifica: finali in "ezza", "ozzo a", "uzzo" e in genere quando è doppia tra due vocali;ghiribizzo;z
+zz;nelle finali in "onzolo";lattónzolo;z
+zz;nelle finali in "onzolo";medicónzolo;z
+z;eccezione specifica finali in "onzolo";girónzolo;z
+z;eccezione specifica finali in "onzolo";frónzolo;z
+zz;iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zampa;z
+zz;iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zòccolo;z
+zz;iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zito;z
+zz;iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zinco;z
+zz;iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zattera;z
+z;eccez. specifica: iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zaffiro;z
+z;eccez. specifica: iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zèfiro;z
+z;eccez. specifica: iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zòtico;z
+z;eccez. specifica: iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zèta;z
+z;eccez. specifica: iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zircóne;z
+z;eccez. specifica: iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;zafferano;z
+z;eccez. specifica: iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;Zante;z
+z;eccez. specifica: iniziale di parola e seconda sillaba inizia per le sorde: c,f,p,q,t o con "z" sorda;Zacinto;z
+zzz;iniziale in z con seconda sillaba sorda o sonora: molti vocaboli accettano doppia pronuncia;zitèlla;z
+zzz;iniziale in z con seconda sillaba sorda o sonora: molti vocaboli accettano doppia pronuncia;zingaro;z
+zzz;iniziale in z con seconda sillaba sorda o sonora: molti vocaboli accettano doppia pronuncia;zampilla;z
+zzz;iniziale in z con seconda sillaba sorda o sonora: molti vocaboli accettano doppia pronuncia;zimbèllo;z
+zz;qunando è preceduta dalla consonante l;alzare;z
+zz;qunando è preceduta dalla consonante l;milza;z
+zz;qunando è preceduta dalla consonante l;filza;z
+zz;qunando è preceduta dalla consonante l;balzare;z
+z;eccez. specifica: qunando è preceduta dalla consonante l;Belzebù;z
+z;eccez. specifica: qunando è preceduta dalla consonante l;elzeviro;z
+z;nei suffissi dei verbi in "izzare";organizzare;z
+z;nei suffissi dei verbi in "izzare";avvizzire;z
+z;nei suffissi dei verbi in "izzare";sonorittatóre;z
+z;nei suffissi dei verbi in "izzare";battezzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";aizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";rizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";attizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";riattizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";drizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";raddrizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";guizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";schizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";spirizzare;z
+zz;eccez. specifica suffissi dei verbi in "izzare";strizzare;z
+z;iniziale di parola seguita da due vocali la prima delle quali non sia una "i";zaino;z
+z;iniziale di parola seguita da due vocali la prima delle quali non sia una "i";zuavo;z
+z;iniziale di parola seguita da due vocali la prima delle quali non sia una "i";zoo;z
+z;iniziale di parola seguita da due vocali la prima delle quali non sia una "i";Zeus;z
+z;iniziale di parola e seconda sillaba inizia per le sonore: b,d,g,l,m,n,r,v,z o con "z" sonora;zanzara;z
+z;iniziale di parola e seconda sillaba inizia per le sonore: b,d,g,l,m,n,r,v,z o con "z" sonora;zizzania;z
+z;iniziale di parola e seconda sillaba inizia per le sonore: b,d,g,l,m,n,r,v,z o con "z" sonora;zara;z
+z;iniziale di parola e seconda sillaba inizia per le sonore: b,d,g,l,m,n,r,v,z o con "z" sonora;zèbra;z
+z;iniziale di parola e seconda sillaba inizia per le sonore: b,d,g,l,m,n,r,v,z o con "z" sonora;zodiaco;z
+z;z scempia (non doppia) tra due vocali singole;nazismo;z
+z;z scempia (non doppia) tra due vocali singole;Carpazi;z
