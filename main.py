@@ -26,7 +26,7 @@ class statistic():
         print("Vocaboli proposti in totale: ",self.proposed)
         print ("Corretti (al primo tentativo): {} ({})".format(self.correct,self.perc_right()))
         print ("Sbagliati (almeno una volta): {} ({})".format(self.wrong,self.perc_wrong()))
-        #self.print_all_stats()
+        # self.print_all_stats()
     def perc_right (self):
         corr_perc = (self.proposed-self.wrong) * 100 / self.proposed
         return  corr_perc
@@ -114,7 +114,11 @@ def ripasso_totale():
         for x in categorie.values():
             categories_to_recap+=x+","
 
-        categories_to_recap=categories_to_recap.removesuffix(",")
+        #categories_to_recap=categories_to_recap.removesuffix(",")
+    if categories_to_recap.endswith(","):
+        categories_to_recap = categories_to_recap[:-1]
+
+    #print (categories_to_recap,"jaa")
     controllerEx.gestisci_ripasso_sezione(terms_to_recap, categorie,categories_to_recap,stats)
 
 
@@ -154,8 +158,11 @@ def ripassa_sezione():
 
     sez =categorie.get(sezione)
     # print (len(termini), "" ,len(terms_to_recap))
-    chosen_cat_for_stat = chosen_cat_for_stat.removesuffix(",")
-    #print (chosen_cat_for_stat)
+    #chosen_cat_for_stat = chosen_cat_for_stat.removesuffix(",")
+    if chosen_cat_for_stat.endswith(","):
+        chosen_cat_for_stat = chosen_cat_for_stat[:-1]
+
+    print(chosen_cat_for_stat,"ok")
     #print(terms_to_recaprs)
     controllerEx.gestisci_ripasso_sezione(terms_to_recap, categorie,chosen_cat_for_stat,stats)
 

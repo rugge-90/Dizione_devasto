@@ -49,7 +49,11 @@ class controller:
             return
         #if here alles gut!
         revised_sect=splitted_line[3]
-        revised_sect=revised_sect.removesuffix("\n")
+       #s revised_sect=revised_sect.removesuffix("\n")
+
+        if revised_sect.endswith("\n"):
+            revised_sect=revised_sect[:-1]
+
         return main.statistic(ts,proposed_int,wrong_int,revised_sect);
 
 
@@ -365,11 +369,16 @@ class controller:
         stat.print_stat_after_recap();
 
 
-
+        termini_sbagliati = ""
         for x in mistakes_collection:
-            termini_sbagliati = x.term+", "
-            termini_sbagliati = termini_sbagliati.removesuffix(", ")
-            print(termini_sbagliati)
+            termini_sbagliati = termini_sbagliati + x.term+", "
+
+        #termini_sbagliati = termini_sbagliati.removesuffix(", ")
+        if len(mistakes_collection) > 0:
+            print("Parole che hai sbagliato: ")
+        if termini_sbagliati.endswith(", "):
+            termini_sbagliati = termini_sbagliati[:-2]
+        print(termini_sbagliati)
 
         self.add_stat_to_file(stat)
         stats.append(stat)
